@@ -1,0 +1,130 @@
+.SchemaCreate_overall{
+    /* border: 1px solid red; */
+    height: auto;
+    width:100%;
+    
+    
+}
+
+.Schema_overall_button{
+    width: 450px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 10px;
+    font-size: 18px;
+
+}
+::-webkit-scrollbar {
+    width: 4px;
+    /* height: 1px; */
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #0c50a362; 
+    border-radius: 10px;
+  }
+.schema_selected_data{
+    border: 1px solid #ccc;
+    height: 69px;
+    width: 410px;
+    overflow: scroll;
+    font-family: 'Nunito';
+    border-radius: 2px;
+    padding: 5px;
+    margin-bottom: 0px;
+    /* font-weight: 700; */
+}
+.tab{
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    user-select: none;
+    font-family: 'Nunito';
+    font-weight: 400;
+    padding: 5px;
+    overflow-y: hidden;
+}
+.schema-btn-modal{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Nunito';
+}
+.schema-table-modal{
+    /* border: 1px solid red; */
+    overflow: hidden;
+    border-radius: 4px;
+    font-family: 'Nunito';
+   
+}
+.Schema_Add_Search_Input{
+    height: 40px;
+    width: 100%;
+}
+.Schema_Add_Search_Sugg_Box{
+    border: 1px dotted #2424;
+    border-spacing: 10px;
+    min-height: auto ;
+    max-height:300px;
+    margin: 20px 0 0 0;
+    overflow-y: scroll;
+    overflow-x: hidden;
+  
+}
+.Schema_Add_Search_Sugg_Inner_Box{
+    /* border: 1px solid green; */
+    height: 50px;
+    width: 100%;
+}
+
+.Schema_Search_List_Title_text{
+    margin: 10px 0 0 25px;
+}
+.Schema_Status_Active_Text , .Schema_Status_InActive_Text{
+   font-family: 'Nunito';
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    margin: 0 0 0 25px;
+}
+.Schema_Status_Active_Text{
+    color: rgb(143, 227, 47);
+}
+.Schema_Status_InActive_Text{
+    color: rgba(233,30,99,1);
+}
+.Schema_Search_List:active{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05));
+}
+
+/* Accordian */
+.Schema_box{
+    /* border: 1px solid red; */
+    /* display: flex;
+    justify-content: space-around; */
+    width: 100%;
+}
+/* .dType_input{
+    border: 1px solid green;
+} */
+.Schema_boxOne{
+    /* border: 1px solid blue; */
+    width: 399px;
+    display: flex;
+    justify-content: space-around;
+}
+.Schema-inputfeild{
+    /* border: 1px solid blue ; */
+    margin-top: .8vmax;
+}
+
+.Schema_acc_overall{
+    background-color:#d6d2d208;   
+    border: 1px solid rgba(218, 214, 214, 0.801);    
+    width: 410px;
+    height: 120px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align: center;
+    padding: 5px;  
+}

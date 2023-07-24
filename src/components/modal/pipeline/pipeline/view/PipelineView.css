@@ -1,0 +1,20 @@
+.PipeLine_ViewForm_Parent_Contaiiner{
+    height: auto;
+    width:100%;
+    user-select: none;
+    font-family: 'Nunito';
+}
+.Pipeline_Active_ViewStatus_Text{
+    font-weight: 500;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    color: rgba(76,175,80,1);
+    font-family: 'Nunito';
+}
+.Pipeline_InActive_ViewStatus_Text{
+    font-weight: 500;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    color: rgba(233,30,99,1);
+    font-family: 'Nunito';
+}

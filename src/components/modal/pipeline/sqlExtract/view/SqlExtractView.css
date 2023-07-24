@@ -1,0 +1,19 @@
+.Sql_ViewForm_Parent_Contaiiner{
+    height: auto;
+    width:100%;
+    user-select: none;
+}
+.Sql_Active_ViewStatus_Text{
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    color: rgba(76,175,80,1);
+}
+.Sql_InActive_ViewStatus_Text{
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    color: rgba(233,30,99,1);
+}

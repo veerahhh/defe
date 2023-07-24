@@ -1,0 +1,10 @@
+
+.User_create_button{
+    
+    width: 80px;
+    display: inline-block;
+    position: fixed;
+    bottom: 10px;
+    font-size: 15px;
+    font-family: 'Nunito';
+}

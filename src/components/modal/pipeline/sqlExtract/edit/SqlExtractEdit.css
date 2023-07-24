@@ -1,0 +1,12 @@
+.sqlExtract_EditForm_Parent_Container{
+    height: auto;
+    width:100%;
+}
+.sqlExtract_Update_Button{
+    width: 80px;
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    bottom: 10px;
+    font-size: 15px;
+}

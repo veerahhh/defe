@@ -1,0 +1,265 @@
+.NewConn-Head {
+    margin-bottom: 10px;
+    font-family: 'Nuntio';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+
+}
+
+.conn-accordian-cont {
+    border: 1px solid red;
+    background-color: #d6d2d213;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    border: 1px solid rgb(209, 206, 206);
+    height: 20vh;
+    /* height: auto; */
+    width: 250px;
+    overflow: scroll !important;
+    overflow-x: hidden !important;
+    padding: 6px;
+    /* font-family: 'Nuntio'; */
+}
+
+/* ::-webkit-scrollbar { */
+/* width: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px; */
+/* } */
+
+/* inputfeild width */
+
+.conname-inputfeild {
+    width: 250px;
+}
+
+.Connimg-Container {
+    max-width: 700px;
+    height: fit-content;
+    overflow-x: auto;
+    overflow-y: scroll;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 15px;
+    /* font-family: 'Nuntio'; */
+
+}
+
+/* .newCon-input-feild{
+    width:300px;
+} */
+.dragdropimg {
+    height: 100px;
+    width: 130px;
+}
+
+.uploadlogo {
+    margin: 20px 30px;
+    height: 60px;
+    width: 100px;
+}
+
+.newconn-img-btn {
+    display: flex;
+    align-items: center;
+    gap: 10px
+}
+
+.newconn-upload-btn {
+    margin-top: 10%;
+    background-color: #d7dae0;
+    padding: 3px;
+}
+
+.nofilechsen {
+    margin-top: 12%;
+}
+
+.newconn-btn-cont {
+    width: 590px;
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    bottom: 10px;
+    /* border: 1px solid red; */
+
+}
+.newconnDtlEdit-btn{
+    /* border: 1px solid red; */
+    width: 550px;
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    bottom: 10px;
+
+}
+.newconnEdit-btn{
+    width: 550px;
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    bottom: 10px;
+}
+.newconndtls-btn-cont {
+    /* border: 1px solid red; */
+    width: 550px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 10px;
+}
+
+.newconn-create-btn {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    /* position: fixed; */
+    /* bottom: 10px; */
+    /* margin-left: 10px; */
+}
+
+.newconndtl-create-btn{
+    display: inline-block;
+}
+.newconndtl-create-btn1{
+    display: none;
+}
+
+.newconndtl-back-btn {
+    margin-right: 10px;
+}
+
+/* newconndtlscss */
+.reg-lbl-accordian {
+    /* border: 1px solid red; */
+    margin-bottom: 5px;
+}
+
+.accordian-sec {
+    background-color: #d6d2d208;
+    border: 1px solid rgba(218, 214, 214, 0.801);
+    width: 450px;
+    height: 140px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align: center;
+    padding: 4px;
+    /* font-family: 'Nuntio'; */
+}
+
+.accordian {
+    display: flex;
+    align-items: flex-start;
+    height: 50px;
+    padding: 8px;
+    text-align: center;
+    gap: 20px;
+    /* border: 1px solid red; */
+    /* font-family: 'Nuntio'; */
+}
+
+.addrmv-btn-cont {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 5px;
+}
+
+.key-inputfeild {
+    /* border: 1px solid red; */
+    width: 250px;
+    height: 45px;
+    margin-left: 15px;
+    margin-bottom: 9px;
+    padding: 7px;
+
+    /* margin-top: .1vmax; */
+    /* box-shadow: rgba(145, 189, 232, 0.4) 0px 0px 0px 0.1px, rgba(199, 214, 232, 0.65) 0px 0px 0px 1px, rgba(243, 242, 247, 0.08) 0px 0.1px 0px inset; */
+}
+.key-inputfld{
+    width: 150px;
+    margin-left: 15px;
+    padding: 7px;
+    margin-top: 2vmax;
+}
+.addrmv-btn-cont>button {
+
+    margin-top: 5px;
+    margin-left: 6px;
+    background-color: #0C50A3;
+    border: none;
+    color: #FFFF;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    border-radius: 20%;
+}
+
+.flex-twocontainer {
+    /* border: 5px solid transparent; */
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+    width: 100%;
+    overflow-x: hidden;
+    /* margin: 0% auto; */
+    font-family: 'Nunito';
+    /* padding: 0; */
+
+}
+
+.Conn_Title {
+    /* border: 1px solid red; */
+    margin: 10px 0px 0px 80px;
+    padding: 5px;
+    display: inline-block;
+    font-size: 14px;
+    font-family: 'Nunito';
+    font-weight: 500;
+}
+
+.conDtype_Acc {
+    /* border: 1px solid rgba(187, 184, 184, 0.468); */
+    overflow-y: scroll;
+    height: 270px;
+}
+
+.popUp_btn{
+    /* border: 1px solid red; */
+    margin-top:1.5vmax;
+    background-color: #0C50A3;
+    color: #fff;
+    height: 35px;
+    border-radius: 5px;
+}
+
+.flex-twocontainers {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    width: 100%;
+
+}
+.overallConTab{
+    width: 100%;
+    /* padding: 10px; */
+    /* border: 1px solid red */
+}
+.table {
+    font-family: 'Nunito';
+    border-collapse: collapse;
+    width: 95%;
+    margin: 0% auto;
+   
+  }
+  .th{
+    background-color: #0C50A3;
+    color: #fff;
+  }
+  
+  .td, .th {
+    border: 1px solid #49484876;
+    text-align: center;
+    padding: 8px;
+  }
+  

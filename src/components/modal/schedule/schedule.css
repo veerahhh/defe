@@ -1,0 +1,142 @@
+/* new schedule */
+.sched_addform_overall_container_{
+    height: 100%;
+}
+
+.sched_addform_container{
+    height: 400px;
+}
+.sched_addform_button_cont{
+    width: 37%;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 10px;
+    font-size: 18px;
+    font-family: 'Nunito';;
+}
+.sched_editform_button_cont{
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 10px 0;
+     /* border: solid 2px red; */
+     margin: 25% 0 0;
+}
+
+
+
+/* popup add schedule dependency */
+.sched_add_dep_overall_container{
+    height: 480px;
+}
+
+.sched_adddep_form_container{
+    height: 430px;
+    margin: 0px 10px;
+}
+
+.sched_adddep_form_button_cont{
+    width: 80px;
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    bottom: 10px;
+    font-size: 16px;
+    font-family: 'Nunito' ;
+
+}
+
+/* popup edit schedule dependency */
+
+/* .shed_dep_edit_overall_container{ */
+    /* height: 500px; */
+    /* border: solid 2px black; */
+
+/* } */
+
+.sched_editdep_form_container{
+    height: 430px;
+    margin: 10px 10px;
+}
+.sched_editdep_form_button_cont{
+    height: 40px;
+    display: flex;
+    /* border: solid 2px red; */
+    margin: 5% 0 0;
+}
+/* popup view schedule dependency  */
+.shed_dep_view_overall_container{
+    height: 500px;
+}
+.sched_viewdep_form_container{
+    height: 430px;
+    margin: 10px 10px;
+}
+.sched_viewdep_form_button_cont{
+     height: 50px;
+     display: flex;
+     justify-content: flex-end;
+     padding: 10px 10px 0;
+}
+
+
+
+
+
+
+/* popup styles */
+.ant-modal-body{
+    height: 100%;
+}
+.sched_pop_container{
+    top: 5%;    
+    width: 700px !important;
+    height: 500px;
+}
+
+
+.Pipeline_detail_Search_Sugg_Box_{
+    border-spacing: 10px;
+    min-height: auto ;
+    max-height:300px;
+    margin: 20px 0 0 0;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    font-family: 'Nunito';
+    /* width: 1; */
+}
+.Pipeline_detail_Search_Sugg_Inner_Box_{
+    height: 40px;
+    width: 100%;
+}
+
+.Pipeline_detail_Search_List_Title_text_{
+    border: 1px dotted #2424;
+    border-spacing: 10px;
+    min-height: auto ;
+    max-height:300px;
+    margin: 20px 0 0 0;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    font-family: 'Nunito';
+}
+.Status_Active_Text , .Status_InActive_Text{
+    font-family: 'Nunito';
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    margin: 0 0 0 25px;
+}
+.Status_Active_Text{
+    color: rgba(139,195,74,1);
+}
+
+.newconn-create-btn{
+    width: 80px;
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    bottom: 10px;
+    font-size: 15px;
+}

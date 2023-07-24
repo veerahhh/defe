@@ -1,0 +1,118 @@
+.dataTypeCreate_overall{
+    /* border: 1px solid red; */
+    height: auto;
+    width:100%;
+    
+}
+.datatype_overall_button{
+    width: 450px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 10px;
+    font-size: 18px;
+}
+.dataType_Add_Button , .dataType_Back_Button{
+   font-family: 'Nunito';
+    font-size: 13px;
+    font-weight: 500;
+    padding: 0 25px;
+}
+
+.dataType_Add_Search_Input{
+    height: 40px;
+    width: 100%;
+}
+.dataType_Add_Search_Sugg_Box{
+    border: 1px dotted #2424;
+    border-spacing: 10px;
+    min-height: auto ;
+    max-height:300px;
+    margin: 20px 0 0 0;
+    overflow-y: scroll;
+    overflow-x: hidden;
+  
+}
+.dataType_Add_Search_Sugg_Inner_Box{
+    /* border: 1px solid green; */
+    height: 50px;
+    width: 100%;
+}
+
+.dataType_Search_List_Title_text{
+    margin: 10px 0 0 25px;
+}
+.Status_Active_Text , .Status_InActive_Text{
+   font-family: 'Nunito';
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    margin: 0 0 0 25px;
+}
+.Status_Active_Text{
+    color: rgb(143, 227, 47);
+}
+.Status_InActive_Text{
+    color: rgba(233,30,99,1);
+}
+.dataType_Search_List:active{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05));
+}
+
+/* Accordian */
+.dType_box{
+    /* border: 1px solid red; */
+    /* display: flex;
+    justify-content: space-around; */
+    width: 100%;
+}
+/* .dType_input{
+    border: 1px solid green;
+} */
+.dType_boxOne{
+    /* border: 1px solid blue; */
+    width: 399px;
+    display: flex;
+    justify-content: space-around;
+}
+.datatype-inputfeild{
+    /* border: 1px solid blue ; */
+    margin-top: .8vmax;
+}
+
+/* .dType_accordian{
+    border: 3px solid red;
+    display: flex;    
+    align-items: flex-start; 
+    height: 50px;
+    padding: 10px;
+    text-align: center;
+    gap:20px;
+} */
+/* .dType_btn{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0px 3px;
+    border: 2px solid red;
+} */
+/* .dType_btn>.p-btn{
+    margin-top: 5px;
+    margin-left: 5px;
+    background-color: #0C50A3;
+    border: none;
+    color:  #FFFF;
+    width: 60px;
+    height:30px;
+    padding: 4px;
+} */
+
+.dType_acc_overall{
+    background-color:#d6d2d208;   
+    border: 1px solid rgba(218, 214, 214, 0.801);    
+    width: 410px;
+    height: 120px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align: center;
+    padding: 5px;  
+}

@@ -1,0 +1,119 @@
+.activeComponent {
+    height: 100%;
+    width: 500px !important;
+    display: flex;
+    justify-content: space-evenly;
+}
+/* .activeBreadcrumb{
+    border: 1px solid rgb(11, 176, 49);
+    margin:1vh 38vh 0 0;
+    font-family: 'Poppins';
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    user-select: none;
+} */
+.inactiveComponent {
+    display: none;
+}
+.TenantList-Active-Tab{
+    font-family: 'Nunito';
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    font-weight: 700;
+    border: none;
+    border-bottom: 2px solid rgba(12,80,163,255);
+    color: rgba(25,25,25,1);
+    background: #fff;
+    cursor: pointer;
+    /* margin: 0 28vh 0 0; */
+}
+.Active {
+    font-family: 'Poppins';
+    font-size: 18px;
+    font-weight: 600;
+    color: #1D2939;
+    margin: 20px 0 0 0;
+    cursor: pointer;
+    background-color: #ffffff;
+    border: none;
+}
+
+.Config-Active-Tab{
+    font-family: 'Nunito';
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    font-weight: 700;
+    border: none;
+    border-bottom: 2px solid rgba(12,80,163,255);
+    color: rgba(25,25,25,1);
+    background: #fff;
+    cursor: pointer;
+    /* margin: 0 1vh 0 0; */
+}
+
+.Monitor-Active-Tab{
+    font-family: 'Nunito';
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    font-weight: 700;
+    border: none;
+    border-bottom: 2px solid rgba(12,80,163,255);
+    color: rgba(25,25,25,1);
+    background: #fff;
+    cursor: pointer;
+    /* margin: 0 28vh 0 0; */
+}
+
+.InActive {
+    font-family: 'Poppins';
+    font-size: 15px;
+    font-weight: 600;
+    color: #98A2B3;
+    margin: 20px 0 0 0;
+    cursor: pointer;
+    background-color: #ffffff;
+    border: none;
+}
+
+.Active-Tab{
+    font-family: 'Nunito';
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    font-weight: 700;
+    border: none;
+    border-bottom: 2px solid rgba(12,80,163,255);
+    color: rgba(25,25,25,1);
+    background: #fff;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.Set-Active-Tab{
+    font-family: 'Nunito';
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    font-weight: 700;
+    border: none;
+    border-bottom: 2px solid rgba(12,80,163,255);
+    color: rgba(25,25,25,1);
+    background: #fff;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.activeSetComponent{
+    /* border: 1px solid red; */
+    height: 100%;
+    width: 350px !important;
+    display: flex;
+    justify-content: space-evenly;
+}
+.Inactive-Tab{
+    font-family: 'Nunito';
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    font-weight: 700; 
+    border: none;
+    color: #98A2B3;
+    background: #fff;
+    cursor: pointer;
+}

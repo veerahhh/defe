@@ -1,0 +1,105 @@
+.Tenant-View-Form-Next-Button {
+    height: 35px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    font-family: 'Nunito';
+    color: #fff;
+    /* border-radius: 50px; */
+    margin-top: 20px;
+}
+
+.Tenant-View-Form-Back-Button {
+    height: 35px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    font-family: 'Nunito';
+    color: #fff;
+    /* border-radius: 50px; */
+    margin-top: 20px;
+    background: rgba(12, 80, 163, 255);
+    border: 1px solid rgba(12, 80, 163, 255);
+}
+
+.Tenent-View-Parent-Container {
+    height: 100%;
+    width: 100%;
+    overflow-y: auto;
+}
+
+.Tenant-View-List-Parent-Container,
+.Tenant-View-Member-List-Parent-Container {
+    border: 0;
+    height: 50px;
+    border-bottom: 1px solid #f1f1f1;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+.Tenant-View-Member-List-Parent-Container {
+    padding: 5px;
+    border-radius: 5px;
+    margin: 0 0 3px 0;
+    cursor: default;
+}
+
+.Tenant-View-Left-Container,
+.Tenant-View-Right-Container,
+.Tenant-View-Member-Left-Container,
+.Tenant-View-Member-Right-Container {
+    border: 1px solid transparent;
+    width: calc(100% - 30px);
+}
+
+.Tenant-View-Right-Container,
+.Tenant-View-Member-Right-Container {
+    width: 30px;
+}
+
+.Tenant-View-Left-Header-Text,
+.Tenant-View-Member-Left-Header-Text {
+    font-size: 15px;
+    font-weight: 700;
+    color: #000;
+    font-family: 'Nunito';
+    margin: 0;
+}
+
+.Tenant-View-Left-Sub-Text,
+.Tenant-View-Member-Left-Sub-Text {
+    font-size: 11px;
+    font-weight: 400;
+    color: rgba(102, 102, 102, 1);
+    font-family: 'Nunito';
+    margin: 0;
+}
+
+.Tenant-View-Left-Sub-Text-Count,
+.Tenant-View-Member-Left-Sub-Text-Count {
+    color: rgba(12, 80, 163, 255);
+    font-weight: 500;
+}
+
+.Tenant-View-Right-Icon {
+    margin: 15px 0 0 0;
+}
+
+.Tenant-View-Member-Right-Icon {
+    margin: 10px 0 0 0;
+    cursor: pointer;
+}
+
+.Tenant-View-List-Container {
+    border: 1px solid #f1f1f1;
+    min-height: fit-content;
+    max-height: 400px;
+    /* height: 400px; */
+    background: rgba(230, 230, 230, 1);
+    padding: 10px;
+    border-radius: 5px;
+}

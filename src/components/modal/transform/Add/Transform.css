@@ -1,0 +1,10 @@
+.Dtransform_Add_Button , .Dtransform_Back_Button{
+    /* width: 400px; */
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 10px; 
+    font-size: 15px;
+    font-family: 'Nunito';
+    /* border: 1px solid red; */
+}

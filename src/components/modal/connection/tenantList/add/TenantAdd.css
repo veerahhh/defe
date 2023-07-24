@@ -1,0 +1,86 @@
+ /* .tenant_Create_Button{
+   font-family: 'Nunito';
+    font-size: 13px;
+    font-weight: 500;
+    width: 100%;
+    height: 35px;
+    margin: 1px 0 0 0;
+} */
+
+/* .tenant_AddForm_Parent_Container{
+    /* border: 2px solid red; */
+    /*text-transform: capitalize;
+} */
+/* .tenant_Add_Button , .tenant_Back_Button{
+   font-family: 'Nunito';
+    font-size: 14px;
+    font-weight: 500;
+    margin: 20px 0 0 0;
+    padding: 0 25px ;
+}
+
+.tenant_Add_Search_Input{
+    height: 40px;
+    width: 100%;
+}
+
+.tenant_Add_Search_Sugg_Box{
+    border: 1px dotted #2424;
+    border-spacing: 10px;
+    min-height: auto ;
+    max-height:300px;
+    margin: 20px 0 0 0;
+    overflow-y: scroll;
+    overflow-x: hidden;
+} */
+/* .tenant_Add_Search_Sugg_Inner_Box{
+    /* border: 1px solid green; */
+    /*height: 50px;
+    width: 100%;
+} */
+
+/* .tenant_Search_List_Title_text{
+    margin: 10px 0 0 25px;
+}
+.Status_Active_Text , .Status_InActive_Text{
+   font-family: 'Nunito';
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    margin: 0 0 0 25px;
+}
+.Status_Active_Text{
+    color: rgb(143, 227, 47);
+}
+.Status_InActive_Text{
+    color: rgba(233,30,99,1);
+}
+.tenant_Search_List:active{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05));
+}  */
+
+.Tenant-Add-Form-Next-Button{
+    height: 35px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    font-family: 'Nunito';
+    color: #fff;
+    /* border-radius: 50px; */
+    margin-top: 15px;
+}
+
+.Tenant-Add-Form-Back-Button{
+    height: 35px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    font-family: 'Nunito';
+    color: rgba(12,80,163,255);
+    /* border-radius: 50px; */
+    margin-top: 15px;
+    background: #fff;
+    border: 1px solid  rgba(12,80,163,255);
+}

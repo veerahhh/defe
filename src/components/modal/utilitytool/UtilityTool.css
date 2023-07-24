@@ -1,0 +1,89 @@
+.total-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    }
+    
+    .form-container {
+    height: 530px;
+    width: 99%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin-top: 15px;
+    /* added CSS code */
+    background-color: white;
+    border: 1px solid #dddddd;
+    padding: 15px;
+
+    }
+    
+    .selectconnect {
+    padding: 20px;
+    font-family: 'Nunito';
+    display:flex;
+    justify-content:right;
+    align-items: center;
+    }
+    
+    .selectPost {
+    float: right;
+    font-family: 'Nunito';
+    padding: 20px;
+    }
+    
+    .overallPost {
+    margin-top: .5vmax;
+    width: 100%;
+    height: unset;
+    font-family: 'Nunito';
+    }
+    
+    .postTable {
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+    font-family: 'Nunito';
+    height: 450px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    }
+    
+    .sltPst {
+    margin-left: 1vmax;
+    font-family: 'Nunito';
+    }
+    
+    .label-field {
+    font-size: 10px;
+    padding: 0 10px;
+    }
+
+    .custom-input {
+        background-color: #fafafa;
+        border: none;
+        background: transparent;
+        border-bottom: 1.5px solid #2d2dee;
+        font-size: 16px;
+        color: #070707;
+      }
+
+    .custom-input:focus,.custom-input.ant-input:hover{
+        box-shadow: none !important;
+    }
+      
+    .utilitybutton {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+    
+    }
+    
+    .submitbtn {
+    width: 100px;
+    /* margin-right: 77px; */
+    border-radius: 5px;
+    }

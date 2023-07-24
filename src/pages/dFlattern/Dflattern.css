@@ -1,0 +1,55 @@
+.main_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.form_container {
+    height: 500px;
+    width: 99%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin-top: 15px;
+    /* added CSS code */
+    background-color: white;
+    border: 1px solid #dddddd;
+    padding: 15px;
+}
+
+.drop_container {
+    padding: 20px;
+    font-family: 'Nunito';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.file-input-container {
+    /* position: relative; */
+    display: block;
+    width: 100%;
+}
+
+.file-input {
+    display: none;
+}
+
+.file-input-label {
+    background-color: transparent;
+    /* width: 100% ; */
+    display: block;
+    color: #333;
+    /* padding: 8px 16px; */
+    cursor: pointer;
+}
+
+.file-input-filename {
+    margin-top: 8px;
+    display: block;
+}

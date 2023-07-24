@@ -1,0 +1,45 @@
+.userroleCreate_overall{
+    height: auto;
+    width:100%;
+    
+}
+.Userrole_Add_Search_Input{
+    height: 40px;
+    width: 100%;
+}
+.Userrole_Add_Search_Sugg_Box{
+    border: 1px dotted #2424;
+    border-spacing: 10px;
+    min-height: auto ;
+    max-height:300px;
+    margin: 20px 0 0 0;
+    overflow-y: scroll;
+    overflow-x: hidden;
+  
+}
+.user_Add_Search_Sugg_Inner_Box{
+    /* border: 1px solid green; */
+    height: 50px;
+    width: 100%;
+}
+
+.user_Search_List_Title_text,.Userrole_Search_List_Title_text{
+    margin: 10px 0 0 25px;
+}
+
+.Statususerrole_Active_Text , .Statususerrole_InActive_Text{
+   font-family: 'Nunito';
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    margin: 0 0 0 25px;
+}
+.Statususerrole_Active_Text{
+    color: rgb(143, 227, 47);
+}
+.Statususerrole_InActive_Text{
+    color: rgba(233,30,99,1);
+}
+.Userrolee_Search_List:active{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05));
+}

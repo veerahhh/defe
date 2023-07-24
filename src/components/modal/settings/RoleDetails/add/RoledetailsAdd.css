@@ -1,0 +1,60 @@
+.role-details-overall-container{
+    height: 100%;
+}
+ 
+
+.Pipeline_detail_Search_Sugg_Box{
+    border-spacing: 10px;
+    min-height: auto ;
+    max-height:300px;
+    margin: 20px 0 0 0;
+    overflow-y: scroll;
+    overflow-x: hidden !important;
+}
+.Pipeline_detail_Search_Sugg_Inner_Box{
+    height: 40px;
+    width: 100%;
+}
+
+.Pipeline_detail_Search_List_Title_text{
+    border: 1px dotted #2424;
+    border-spacing: 10px;
+    min-height: auto ;
+    max-height:300px;
+    margin: 20px 0 0 0;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    font-family: 'Nunito';
+}
+.Status_Active_Text , .Status_InActive_Text{
+    font-family: 'Nunito';
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    margin: 0 0 0 25px;
+}
+.Status_Active_Text{
+    color: rgba(139,195,74,1);
+}
+.ant-checkbox-checked .ant-checkbox-inner{
+    width: 20px;
+    height: 20px;
+
+}
+
+.roledetail-cncl-btn{
+    margin: 0 20px;
+}
+.page-border{
+    height: 200px;
+    width: 100%;
+    border: solid 1px rgba(0, 0, 0, 0.203);
+    overflow-y: scroll;
+    overflow-x: hidden ;
+
+}
+.roledetails_addform_button_cont{
+    display: flex;
+    justify-content: space-between;
+    margin: 12% 0 0;
+}

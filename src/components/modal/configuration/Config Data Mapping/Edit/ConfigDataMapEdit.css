@@ -1,0 +1,17 @@
+.Dtype_EditForm_Parent_Container{
+    height: auto;
+    width:100%;
+    /* border: 2px solid red; */
+}
+.dataType_Edit_Buttn{
+    width:450px;
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    bottom: 10px;
+
+}
+.d_type_select{
+    margin-top: 1vmax;
+    /* border: 2px solid red; */
+}

@@ -1,0 +1,14 @@
+.pageAddbtn{
+    width: 100%;
+    display: flex;
+    margin: 28% 0 0 ;
+}
+.Policy_create_button{
+    
+    width: 70px;
+    display:flex-end;
+    position: fixed;
+    bottom: 10px;
+    font-size: 15px;
+    font-family: 'Nunito';
+}

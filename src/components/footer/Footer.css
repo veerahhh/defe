@@ -1,0 +1,21 @@
+.Footer_Container {
+    border: 1px solid red;
+    height: calc(100% - 84vh);
+    border: 1px solid #ddd;
+    border-top: 1px solid #fff;
+    background-color: #FAFAFA;
+    user-select: none;
+    border-radius: 0 0 5px 5px;
+}
+
+.Footer_Pagination {
+    font-family: 'Nunito';
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.85);
+    height: 50px;
+    text-align: right;
+    padding: 0 10px 10px;
+    margin-top: 11px;
+}

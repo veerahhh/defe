@@ -1,0 +1,29 @@
+.CommonHeader_Container {
+    border: 1px solid transparent;
+    height: 45px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 3px;
+    user-select: none;
+}
+
+.CommonHeader_Left_Container {
+    border: 1px solid transparent;
+    height: 100%;
+    width: 450px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.CommonHeader_Right_Container {
+    border: 1px solid transparent;
+    height: 100%;
+    width: 550px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+

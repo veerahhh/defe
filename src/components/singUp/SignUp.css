@@ -1,0 +1,179 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.register-page {
+    border: 1px solid transparent;
+    width: 100%;
+    height: 99.9vh;
+}
+.errormsg{
+    color: red;
+    background-color: white;
+    font-size: 14px;
+}
+.form-component,
+.reg-img-container {
+    border: 1px solid transparent;
+    width: 100%;
+    height: 99.5vh;
+}
+
+.reg-lbl {
+    border: 1px solid transparent;
+    margin: 0px 0 0 0;
+    height: 90px;
+}
+
+.dhlogo {
+    border: 1px solid transparent;
+    margin: 10px 0 0 0;
+    height: 60px;
+    width: 250px;
+}
+
+.reg-form-compnt {
+    border: 1px solid transparent;
+    width: 33em;
+    margin: 3em 0% 0% 10em;
+    height: 91vh;
+    /* padding: .5em; */
+}
+
+.reg-input-feild {
+    border-radius: 30px;
+    margin-top: 3px;
+    height: 38px;
+    width: 100%;
+
+}
+
+.radio-reg {
+    border: 1px solid transparent;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0;
+}
+
+.two-inpttxt-inrow {
+    display: flex;
+    justify-content: space-between;
+}
+
+.regpage-nxt-btn,
+.login-btn,
+.regpage-bck-btn {
+    width: 100%;
+    border: none;
+    background-color: #0c50a3;
+    border-radius: 30px;
+    padding: 2%;
+    color: aliceblue;
+    margin: 0% 0% 0% 0%;
+    height: 40px;
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.regpage-bck-btn {
+    background-color: rgb(235, 235, 244) !important;
+    color: #0c50a3 !important;
+    margin: 2% 0% 0% 0%;
+}
+
+/* text */
+.welcomeabroadtxt {
+    border: 1px solid transparent;
+    font-family: 'Poppins';
+    font-size: 35px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #75777a9d;
+    margin: 30px 0 0 10%;
+    height: fit-content;
+}
+
+.SignUp-Illustrate-Container {
+    border: 1px solid transparent;
+    height: 65vh;
+    width: 100%;
+    margin: 20px auto 0 auto;
+}
+
+.SignUp-Illustrate {
+    border: 1px solid transparent;
+    height: 100%;
+    width: 100%;
+}
+
+.Form-Inner_Component {
+    border: 1px solid transparent;
+    height: auto;
+    width: 450px;
+    margin: 1% auto 0 auto;
+}
+
+.reg-login-txt {
+    text-align: center;
+    padding: 2.5% 0 2% 0;
+}
+
+.Form_Container {
+    border: 1px solid transparent;
+    height: auto;
+    width: 100%;
+    font-family: 'Poppins';
+    font-size: 13px;
+    font-weight: 500;
+    margin: 0px 0 0 0;
+}
+
+.Alredy_Have_Account_Text {
+    text-align: center;
+    font-family: 'Poppins';
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 11px;
+    margin-top: 0px;
+}
+
+.SignUpSuccess_Parent_Container {
+    border: 1px solid transparent;
+    width: 100%;
+    height: 99.9vh;
+}
+
+.SignUpSuccess_Text {
+    border: 1px solid transparent;
+    text-align: center;
+    font-family: "Poppins";
+    font-weight: 700;
+    font-size: 48px;
+    margin: 1% 0 0 0;
+    letter-spacing: 1px;
+    color: #0C50A3;
+    height: 80px;
+}
+
+.SignUpSuccess_Img_Container {
+    border: 1px solid transparent;
+    height: 75vh;
+    width: 600px;
+    margin: 0px auto 0 auto;
+}
+
+.SignUpSuccess_Img {
+    height: 100%;
+    width: 100%;
+}
+
+.SignUpSuccess_Bottom_Text {
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 400;
+    margin: 10px 0 0 0;
+    text-align: center;
+}

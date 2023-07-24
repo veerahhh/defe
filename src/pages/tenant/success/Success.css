@@ -1,0 +1,73 @@
+.Tenant-Success-Parent-Container {
+    border: 1px solid transparent;
+    height: 100%;
+    width: 100%;
+}
+
+.Tenant-Reg-Success-Img-Container {
+    border: 1px solid transparent;
+    height: 350px;
+    width: 350px;
+    margin: 0 auto 0 auto;
+}
+
+.Tenant-Reg-Success-Img {
+    height: 100%;
+    width: 100%;
+}
+
+.Tenant-Reg-Success-Text {
+    font-size: 20px;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    text-align: center;
+    color: rgba(12, 80, 163, 255);
+    font-family: 'Nunito';
+
+}
+
+.Tenant-Reg-Success-Code-Container {
+    border: 1px solid #f1f1f1;
+    width: max-content;
+    padding: 5px 20px 5px 20px;
+    background: #f3f3f3;
+    border-radius: 8px;
+    margin: 0 auto 0 auto;
+    display: flex;
+}
+
+.Tenant-Reg-Success-Code {
+    margin: 0;
+    font-size: 25px;
+    font-weight: 900;
+    letter-spacing: 1.5px;
+    color: #000000;
+    font-family: 'Nunito';
+    display: flex;
+}
+
+.Tenant-Reg-Success-Code-Copy-Icon{
+    padding: 0;
+    margin: 5px 0 0 15px;
+    color: rgba(153,153,153,1);
+    cursor:pointer;
+}
+
+.Tenant-Reg-Success-Code-Tick-Icon{
+    padding: 0;
+    margin: 8px 0 0 25px;
+    color: rgba(76,175,80,1);
+    font-size: 14px;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+}
+
+.Tenant-Reg-Success-Back-To-Login-Text{
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    color: #000;
+    font-family: 'Nunito';
+    text-align: center;
+    margin: 20px 0 0 0;
+}

@@ -1,0 +1,180 @@
+.overallColAdd{
+    /* border: 1px solid red; */
+   
+}
+.FormContainer{
+    /* border: 1px solid red; */
+}
+.colType{
+    /* border: 1px solid rgb(77, 255, 0); */
+}
+.addBtnCol>button {
+
+    margin-top: 5px;
+    margin-left: 6px;
+    background-color: #0C50A3;
+    border: none;
+    color: #FFFF;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    border-radius: 20%;
+}
+.col-input{
+    /* border: 1px solid rgb(124, 119, 119); */
+     width: 350px;
+     height: 45px;
+     margin-left: 15px;
+     margin-bottom: 9px;
+     padding: 7px;
+}
+.flex-Onecolumn{
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    overflow-x: hidden;
+    font-family: 'Nunito';
+}
+.overallColBtn{
+      /* border: 1px solid blue; */
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    /* overflow: hidden; */
+}
+.colAddBtn{
+    /* border: 1px solid blue; */
+    width: 440px;
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    bottom: 10px;
+}
+.Display-Form-Input{
+    padding: 10px;
+    margin-top:6px;
+    border-radius: 10px;
+}
+.Description-Form-text{
+    padding: 10px;
+    margin-top:6px;
+    border-radius: 10px;
+    height: 100px;
+    resize: none;
+}
+.Next-Button-Container{
+    /* border: 1px solid red; */
+    width: 500px;
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    bottom: 10px;
+    font-size: 16px;
+}
+.Display_title::after {
+    content: " *";
+    color: red;
+}
+.custom-steps .ant-steps-item {
+    font-size: 10px;
+  }
+  
+  .custom-steps .ant-steps-item-title {
+    font-size: 10px;
+    line-height: 1;
+  }
+  .stepeer{
+    margin-bottom: 50px;
+    
+  }
+  
+  .import_container {
+    height: 350px;
+    width: 400px;
+    /* // border: solid 2px black; */
+    align-items: center;
+    margin: 20% auto;
+}
+.pageBorder{
+    height: 280px;
+    width: 700px;
+    border: solid 1px  rgba(0, 0, 0, 0.203);
+    /* overflow-y: scroll; */
+    overflow-x: hidden ;
+    border: hidden;
+}
+.form_box{
+    border-bottom: 1px solid rgba(215, 214, 214, 0.505) ;
+    height: 35px;
+    display: flex;
+    justify-content: space-between;
+}
+.form_title{
+    width: auto;
+    height: 2px;
+    margin-left: 20px;
+    font-size: 18px;
+    font-family: 'Nunito Sans';
+    font-weight: 700;
+}
+.Form_Obj{
+    margin: 3% 0 0 4% ;
+    
+    
+}
+.Display_title{
+    font-size: 14px;
+    font-weight: 500;
+    /* font-family: 'Nunito Sans'; */
+    color: #101828;
+    line-height: 40px;
+    
+
+}
+/* .Display_title_normal{
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Nunito Sans';
+    color: #101828;
+    line-height: 40px;
+} */
+.Display_title::after{
+    content: ' *';
+    color: red;
+}
+.Description-Form-Input{
+    padding-bottom: 100px;
+}
+.Display-Form-Input{
+    padding: 7px;
+}
+.reference_container{
+    padding: 15px;
+    height: 160px;
+    border: 1px solid #E4E7EC;
+    width: 100%;
+    margin: 18px 0;
+    box-shadow: 0px 4px 8px -2px rgba(16, 24, 40, 0.1), 0px 2px 4px -2px rgba(16, 24, 40, 0.06);
+    background: #F9FAFB;
+}
+.import_container{
+    height: 350px;
+    width: 400px;
+    align-items: center;
+    margin: 7% auto;
+}
+.object_success_container{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin: 3% auto;
+    background: #F2F4F7;
+}
+/* .Modal-popup{
+    margin-top: -35px;
+   
+} */
+.form-button{
+    margin-top: 30px;
+}

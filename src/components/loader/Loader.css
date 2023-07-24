@@ -1,0 +1,97 @@
+
+
+ /* .loaderContainer {
+  height: 60px;
+  width: 60px;
+}
+
+.loaderImg {
+   height: 50px;
+   margin: 0% auto;
+   margin-top: 25%;
+   margin-left: 400px;
+   width: 50px;
+   border-radius: 5px;
+   background-color: transparent;
+   border: 1px solid rgba(175, 175, 175, 0.514);  
+} */
+
+/* =============================================================== */
+
+.logoImg{
+  margin-left: 30px;
+  animation: an 2s alternate infinite;
+}
+@keyframes an{
+  0%{
+    transform :translateY(0px) rotate(0deg);
+  }
+  20%,40%,50%{
+    transform :translateY(0px) rotate(360deg);
+  }
+ 100%{
+    transform :translateY(-10px) rotate(360deg);
+  }
+}
+ .wavy{
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  margin: 0% auto;
+  font-family: sans-serif;
+  font-size: 1.2em;
+  color:#0c50a3;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: .7em;
+  -webkit-box-reflect: below -25px linear-gradient(transparent,rgba(0,0,0,0.2));
+}
+
+.wavy span{
+  position: relative;
+  display: inline-block;
+  color:#0c50a3;
+  animation: anim 2s ease-in-out infinite;
+  
+}
+span:nth-of-type(1){ animation-delay: 0.0s; }
+span:nth-of-type(2){ animation-delay: 0.1s; }
+span:nth-of-type(3){ animation-delay: 0.2s; }
+span:nth-of-type(4){ animation-delay: 0.3s; }
+span:nth-of-type(5){ animation-delay: 0.4s; }
+span:nth-of-type(6){ animation-delay: 0.6s; }
+span:nth-of-type(7){ animation-delay: 0.7s; }
+
+@keyframes anim{
+  0%{
+    transform: translateY(0px);
+  }
+  20%{
+    transform: translateY(-40px);
+  }
+  40%,100%{
+    transform: translateY(0px);
+  }
+} 
+
+/* =============================================== */
+
+/* .logoImg{
+  margin-top: 23%;
+  margin-left: 45%;
+  animation: an 2s alternate infinite;
+  opacity: 0.6;
+  font-size: 1.2em;
+  -webkit-box-reflect: below -14px linear-gradient(transparent,rgba(47, 47, 47, 0.064));
+}
+@keyframes an{
+  0%{
+    transform :translateY(0px) rotate(0deg);
+  }
+  20%,40%,50%{
+    transform :translateY(0px) rotate(360deg);
+  }
+ 100%{
+    transform :translateY(-60px) rotate(360deg);
+  }
+} */

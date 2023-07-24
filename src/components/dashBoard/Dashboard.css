@@ -1,0 +1,191 @@
+.Dashboard_Parent_Container {
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 100%;
+    user-select: none;
+}
+.Dashboard_Card_Bar{
+    /* border: 1px solid red; */
+ 
+   margin-top: -9px;
+   display: flex;
+   justify-content: center;
+   float: right;
+  
+
+}
+.Dashboard_Header_Text {
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Nunito';
+    letter-spacing: 1px;
+    color: #000000;
+    margin: 20px 0 0 20px;
+   
+}
+
+.Dashboard_Inner_Container {
+    /* border: 1px solid green; */
+    width: 98.8%;
+    height: 85%;
+    margin: 25px auto 0 auto;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.Dashboard_Card_Parent {
+    /* border: 1px solid blue; */
+    height: 150px;
+    width: 230px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition-duration: .5s;
+}
+
+.Dashboard_Card_Parent:hover{
+    transform: translateY(10px);
+    transition:  0.3s;
+    box-shadow: 8px 8px 15px -5px rgba(156,148,148,0.77);
+ 
+    /* box-shadow: 0px 12px 16px -4px rgba(16, 24, 40, 0.1), 0px 4px 6px -2px rgba(16, 24, 40, 0.05);  */
+}
+
+.Dashboard_Card_Parent:active{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.05), rgba(199, 65, 65, 0.05));
+}
+
+.Dashboard_Card_Count_Text{
+    font-family: 'Nunito';;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 28px;
+    float: left;
+    margin-top: 10px;
+    /* color: #ffffff; */
+    
+}
+.Dashboard_Card_Type_Text{
+    font-family: "Nunito";
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    /* border: 1px solid red; */
+    margin-top: -5px;
+    display: flex;
+    justify-content: space-between;
+  
+    /* color:#ffffff; */
+    color:rgb(88, 87, 87);
+}
+.Dashboard_Card_Icon{
+    /* border: 1px red solid; */
+    font-size: 30px;
+    color:rgba(88, 87, 87, 0.601);
+}
+
+.Dashboard_Card_ChartOne{
+    /* border: 2px solid blue; */
+    border: 1px solid rgba(139, 139, 139, 0.727);
+    height: 290px;
+    /* width: 640px; */
+    border-radius: 8px;
+    cursor: pointer;
+ 
+}
+/* .chartTitle{
+    border: 1px solid red;
+    display: grid;
+    grid-template-columns:  63% 38%;
+    grid-column-gap: 1em;
+    width: 95%;
+    margin: 1% 0px 0px 10px;
+    height: 19px;
+    margin-left: 1vmax;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Nunito';
+    letter-spacing: 1px;
+    color: #000000;
+   
+} */
+
+
+/* .analytics-charts{
+    border: 1px solid red;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: 'Nunito';;
+} */
+.Dashboard_Card_ChartOne:hover{
+    box-shadow: 0px 12px 16px -4px rgba(16, 24, 40, 0.1), 0px 4px 6px -2px rgba(16, 24, 40, 0.05); ;
+}
+.Dashboard_active_list{
+    height: 485px;
+    overflow: scroll;
+    border: 1px solid rgba(189, 188, 188, 0.696);
+}
+.Dashboard_Card_ChartTwo{
+    border: 1px solid rgba(139, 139, 139, 0.688);
+    height: 290px;
+   
+    border-radius: 8px;
+    cursor: pointer;
+  
+}
+.Dashboard_Card_ChartTwo:hover{
+    box-shadow: 0px 12px 16px -4px rgba(16, 24, 40, 0.1), 0px 4px 6px -2px rgba(16, 24, 40, 0.05); ;
+}
+.Dashboard_Card_ChartContainer{
+    /* border: 2px solid red; */
+    width: 95%;
+    margin: 1% 0px 0px 10px;
+    display: grid;
+    grid-template-columns:  63% 38%;
+    grid-column-gap: 1em;
+  
+}
+
+@media screen and (max-width: 1009px)
+{
+    .Dashboard_Card_ChartContainer{
+        /* border: 1px solid red; */
+        display: grid;
+       grid-template-columns:  50% 48%;
+        grid-column-gap: 1em;
+    }
+    /* .chartTitle{
+        display: grid;
+        grid-template-columns:  50% 48%;
+         grid-column-gap: 1em;
+    } */
+}
+
+@media screen and (max-width:850px) {
+    .Dashboard_Card_ChartContainer{
+        /* border: 1px solid red; */
+        display: flex;
+        flex-wrap: wrap;
+        grid-row-gap: 1em;
+    }
+ 
+    .Dashboard_Card_ChartOne{
+        width: 100%; 
+    }
+    .Dashboard_Card_ChartTwo{
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

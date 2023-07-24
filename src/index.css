@@ -1,0 +1,62 @@
+@import "~antd/dist/antd.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap');
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  user-select: none;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.ant-form-item-explain-error,.error{
+  font-size: 10px;
+  font-weight: 600;
+  font-family: 'Poppins';
+  letter-spacing: 1px;
+  margin: 4px 0 0 8px;
+  color: #ff4d4f;
+  position: relative;
+}
+.error{
+  position: relative;
+  margin: 0px 0 0 8px;
+}
+/* .ant-drawer-body{
+  padding: 0px!important;
+  overflow: hidden!important;
+} */
+
+/* .ant-table
+  .ant-table-container
+  .ant-table-content
+table
+  thead.ant-table-thead
+  .ant-table-cell {
+    background-color: #0c50a3;
+    color:#ffff ;
+} */
+/* customaizing scroll */
+::-webkit-scrollbar {
+  width: 8px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+::-webkit-scrollbar-track {
+  background: #fff;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(163,163,163,1);
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background:rgba(130,130,130,1);
+}

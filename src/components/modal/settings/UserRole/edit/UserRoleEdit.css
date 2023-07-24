@@ -1,0 +1,14 @@
+.userrole_EditForm_Parent_Contaiiner{
+    height: auto;
+    width:100%;
+    font-family: 'Nunito';
+}
+.userrole_Update_Button{
+   
+    font-size: 13px;
+    font-weight: 500;
+    width: 100%;
+    height: 35px;
+    margin: 20px 0 0 0;
+    font-family: 'Nunito';
+}

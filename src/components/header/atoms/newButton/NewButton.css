@@ -1,0 +1,27 @@
+.activeButton {
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 14px;
+    color: #ffffff;
+    border-radius: 5px;
+    margin: 20px 0 0 0;
+}
+
+.inActiveButton {
+    display: none;
+}
+
+.AddButton-Parent-Container{
+    height: 100%;
+    width: fit-content;
+}
+
+.AddButton{
+    border-radius: 5px;
+    font-family: 'Nunito';
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+    color: #fff;
+    margin:1px 0 0 0;
+}

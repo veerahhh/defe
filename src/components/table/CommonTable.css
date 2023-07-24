@@ -1,0 +1,19 @@
+.Common_Table_Conatiner{
+    border: 1px solid #ddd;
+    height:calc(100vh - 160px);
+    margin: 15px auto 0 auto;
+    user-select: none;
+    overflow-y: scroll;
+    overflow-x: scroll;
+    border-radius: 5px 5px 0px 0px;
+    font-family: 'Nunito';
+    font-weight: 400;
+}
+
+
+.Action_Icons {
+    border: 1px solid transparent;
+    display: flex;
+    color: rgba(76, 76, 76, 1);
+    justify-content: space-evenly;
+}

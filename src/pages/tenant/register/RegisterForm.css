@@ -1,0 +1,65 @@
+.Tenant-Reg-Form-Left{
+    border: 1px solid #f3f3f3;
+    height: 100vh;
+    width: 100%;
+}
+
+.Tenant-Reg-Form-Right{
+    border: 1px solid transparent;
+    height: 100vh;
+    width: 100%;
+    background: rgba(197,202,232,.5);
+}
+
+
+.Tenant-Reg-Form_Title{
+    font-size: 45px;
+    font-weight: 900;
+    letter-spacing: 0.5px;
+    color: rgba(12,80,163,255);
+    font-family: 'Nunito';
+    margin: 15px 0 0 30px;
+}
+
+.Tenant-Reg-Form-Sub-Title{
+    font-size: 20px;
+    font-weight: 750;
+    letter-spacing: 0.5px;
+    color: rgba(12,80,163,255);
+    font-family: 'Nunito';
+    margin: 0px 0 0 30px;
+}
+
+.Tenant-Reg-Form-Bg-Img{
+    border: 1px solid transparent;
+    height:75vh;
+    width: 75vh;
+    margin:5vh 0 0 80px;
+}
+
+
+.Tenant-Reg-Form-Next-Button{
+    height: 40px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    font-family: 'Nunito';
+    color: #fff;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+
+.Tenant-Reg-Form-Back-Button{
+    height: 40px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    font-family: 'Nunito';
+    color: rgba(12,80,163,255);
+    border-radius: 50px;
+    margin-top: 20px;
+    background: #fff;
+    border: 1px solid  rgba(12,80,163,255);
+}

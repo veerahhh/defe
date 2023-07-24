@@ -1,0 +1,157 @@
+/* .Layout-Parent-Container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+.Layout-Sidebar-Container {
+    height: 100vh;
+    width: fit-content;
+}
+
+.Layout-Component-Parent-Container-Open{
+    height: 100vh;
+    width:calc(100% - 230px);
+    padding: 10px;
+    background: #f1f1f1;
+    transition:all 0.1s ease-out;
+}
+
+.Layout-Component-Parent-Container-Close{
+      height: 100vh;
+      width:calc(100% - 70px);
+      padding: 10px;
+      background: #f1f1f1;
+}
+
+.Layout-Component-Container {
+    height: 100%;
+    width: 100%;
+    background: #fff;
+    padding: 10px;
+}
+
+session popup
+.session_header{
+    height: 40px;
+    display: flex;
+}
+.session_header>h3{
+    margin: 3px 15px;
+}
+.session_content{
+    height: 150px;
+    margin: 0;
+    border: solid 1.5px transparent;
+    border-radius: 15px;
+}
+.session_ccc{
+    height: 30px;
+    width: 280px;
+    margin: 25px 0 10px 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.session_ccc>p{
+    line-height: normal;
+    font-size: medium;
+}
+.span_time{
+    margin-left: 70px;
+}
+.session_btn_con{
+    height: 35px;
+    width: 300px;
+    display: flex;
+    justify-content: flex-end;
+    float: right;
+    padding: 0 10px;
+} */
+
+.Layout-Parent-Container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+.Layout-Sidebar-Container {
+    height: 100vh;
+    width: fit-content;
+    /* border: 1px solid red; */
+    background-color: #f1f1f1;
+   
+   
+}
+
+.Layout-Component-Parent-Container-Open{
+    height: 100vh;
+    width:calc(100% - 230px);
+    /* padding: 10px; */
+    /* background: #f1f1f1; */
+    transition:all 0.1s ease-out;
+    /* box-shadow: 20px 0px 20px -20px  rgba(32,41,140,1);
+    z-index: 1; */
+}
+
+.Layout-Component-Parent-Container-Close{
+      height: 100vh;
+      width:calc(100% - 70px);
+      /* padding: 10px; */
+      background: #0E109C;
+     
+      
+}
+
+.Layout-Component-Container {
+    height: 100%;
+    width: 100%;
+    background: #fff;
+    padding: 10px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    
+}
+
+/* session popup */
+.session_header{
+    height: 40px;
+    display: flex;
+}
+.session_header>h3{
+    margin: 3px 15px;
+}
+.session_content{
+    height: 150px;
+    margin: 0;
+    border: solid 1.5px transparent;
+    border-radius: 15px;
+}
+.session_ccc{
+    height: 30px;
+    width: 280px;
+    margin: 25px 0 10px 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.session_ccc>p{
+    line-height: normal;
+    font-size: medium;
+}
+.span_time{
+    margin-left: 70px;
+}
+.session_btn_con{
+    height: 35px;
+    width: 300px;
+    display: flex;
+    justify-content: flex-end;
+    float: right;
+    padding: 0 10px;
+}
+

@@ -1,0 +1,229 @@
+.SignIn_Parent_Container {
+  width: 100%;
+  height: 99.8vh;
+  user-select: none;
+}
+
+.SignIn_Left_Container {
+  border: 1px solid transparent;
+  width: 100%;
+  height: 99.9vh;
+}
+
+.Left_Logo_Container {
+  height: 75px;
+  width: 250px;
+  margin: 10px 0 0 10px;
+}
+
+.Left_Logo {
+  height: 100%;
+  width: 100%;
+}
+
+.Left_Content_Container {
+  border: 1px solid transparent;
+  width: 440px;
+  height: auto;
+  margin: 0px auto 0 auto;
+}
+
+.Left_Header_Text {
+  border: 1px solid transparent;
+  font-size: 26px;
+  font-weight: 600;
+  font-family: 'Poppins';
+  letter-spacing: 0.7px;
+  color: #000000;
+  margin: 0;
+}
+
+.SignIn_Left_Form {
+  border: 1px solid transparent;
+  height: auto;
+  width: 100%;
+  font-family: 'Poppins';
+  font-size: 13px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+.SignIn_FormItem {
+  border: 1px solid transparent;
+  margin: 0px 0 0 0;
+  height: auto;
+}
+
+.SingIn_Input {
+  border-radius: 30px;
+  margin-top: 2px;
+  height: 40px;
+}
+
+.SignIn_CheckBox {
+  font-family: 'Poppins';
+  font-size: 10px;
+  font-weight: 500;
+  width: 200px;
+  /* border: solid 2px red; */
+  letter-spacing: 0.5px;
+}
+
+.SignIn_ForgotPassword {
+  font-family: 'Poppins';
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  color: rgba(12, 80, 163, 255);
+  cursor: pointer;
+}
+
+.Login_Button {
+  width: 100%;
+  height: 40px;
+  border-radius: 30px;
+  font-size: 12px;
+  letter-spacing: 1px;
+  font-family: 'Poppins';
+}
+
+.Google_Login_Button {
+  width: 100%;
+  height: 40px;
+  margin: 0px 0 0 0;
+  border-radius: 30px;
+  font-family: 'Poppins';
+  font-size: 13px;
+  font-weight: 500;
+  color: #000000;
+  border: none;
+  box-shadow: none;
+  background-color: rgb(243, 244, 248);
+}
+
+.Google-Icon {
+  height: 25px;
+  width: 25px;
+  margin: 0px 10px 0 0px;
+}
+
+.SignUp_Text {
+  border: 1px solid transparent;
+  font-size: 12px;
+  font-weight: 400;
+  font-family: 'Poppins';
+  letter-spacing: 1px;
+  color: rgba(153, 153, 153, 1);
+  text-align: center;
+  margin: 0px 0 5px 0;
+}
+
+.SignUp_Text_Span {
+  color: rgba(12, 80, 163, 255);
+  margin: 0 0 0 5px;
+}
+
+.Left_SignIn_Bottom_Container {
+  border: 1px solid transparent;
+  width: 255px;
+  height: auto;
+  margin: 0px auto 0 auto;
+}
+
+.Left_SignIn_Bottom_Text {
+  text-align: center;
+  font-size: 12px;
+  font-weight: 400;
+  color: rgba(153, 153, 153, 1);
+  letter-spacing: 1px;
+  margin: 0px 0 0 0;
+}
+
+.DecisionMind_Logo {
+  border: 1px solid transparent;
+  height: 15px;
+  width: 250px;
+  margin: 0px 0 0 5px;
+}
+
+.SignIn_Right_Container {
+  border: 1px solid transparent;
+  height: 99.9vh;
+  background: rgba(12, 80, 163, 255);
+}
+
+.Right_Header_Container {
+  border: 1px solid transparent;
+  width: auto;
+  height: fit-content;
+  margin: 3% 0 0 80px;
+}
+
+.Right_Header_Text_One {
+  height: 50px;
+  font-size: 38px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  color: #ffffff;
+  font-family: 'Poppins';
+  margin: 0;
+}
+
+.Right_Header_Text_Two {
+  height: 50px;
+  font-size: 38px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  color: #ffffff;
+  font-family: 'Poppins';
+  margin: 0;
+}
+
+.Right_Sub_Header_Container {
+  border: 1px solid transparent;
+  width: auto;
+  height: 70px;
+  margin: 2px 0 0 80px;
+}
+
+.Right_Sub_Header_Text {
+  font-size: 23px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  color: rgb(118, 156, 203);
+  font-family: 'Poppins';
+}
+
+.Right_Image_Container {
+  border: 1px solid transparent;
+  width: 100%;
+  height: 62vh;
+  margin: 20px 0 0 0px;
+}
+
+.Right_Image {
+  width: 100%;
+  height: 100%;
+}
+
+.RememberContect_Parent_Container {
+  width: 100%;
+  height: auto;
+}
+
+.RememberContect_Email,
+.RememberContect_Password {
+  font-size: 12px;
+  font-weight: 500;
+  font-family: 'Poppins';
+  color: #000;
+  margin: 0;
+  letter-spacing: 1px;
+}
+
+.Password_Container{
+  border: 1px solid transparent;
+  height: 100%;
+  width: 100%;
+}
+

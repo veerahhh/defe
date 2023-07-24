@@ -1,0 +1,49 @@
+.Page-Not-Found-Parent-Container{
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    -webkit-user-select: none;
+}
+.Page-Not-Found-Data-Hub-Logo{
+    height: 70px;
+    width: 200px;
+}
+.Page-Not-Found-Img-Container{
+    border: 1px solid transparent;
+    height: 350px;
+    width:750px ;
+    margin: 20px auto 0 auto;
+}
+.Page-Not-Found-Img{
+    height:100%;
+    width: 100%;
+}
+.Page-Not-Found-404-Text{
+    font-size: 50px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    font-family: 'Nunito';
+    color: rgba(156,156,156,1);
+    text-align: center;
+    margin: 0;
+}
+.Page-Not-Found-Text{
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-family: 'Nunito';
+    color: rgba(156,156,156,1);
+    text-align: center;
+    margin: 0;
+}
+.Page-Not-Found-Go-To-Home-Text{
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-family: 'Nunito';
+    color:#0C50A3;
+    text-align: center;
+    margin: 10px 0 0 0;
+    cursor: pointer;
+}

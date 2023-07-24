@@ -1,0 +1,412 @@
+.Sidebar-Parent-Container-Open {
+    height: 100%;
+    width: 230px;
+    padding: 5px;
+    transition: all 0.4s ease;
+    background-color: #0E109C;
+    /* background-color: #081183; */
+    /* background-color: #030518; */
+}
+
+.Sidebar-Parent-Container-Close {
+    /* border: 1px solid red; */
+    height: 100%;
+    width: 70px;
+    padding: 3px;
+    transition: all 0.4s ease;
+    /* background-color: #030518; */
+    /* background-color: #081183; */
+    background-color: #0E109C;
+}
+
+.Sidebar-Inner-Container-Open {
+    border: 1px solid transparent;
+    height: 100%;
+    width: 100%;
+    user-select: none;
+    /* background-color: #030518; */
+    /* background-color: #081183; */
+    background-color: #0E109C;
+}
+
+.Sidebar-Inner-Container-Close {
+    border: 1px solid transparent;
+    height: 100%;
+    width: 100%;
+    user-select: none;
+    /* background-color: #030518; */
+    /* background-color: #081183; */
+    background-color: #0E109C;
+}
+
+.Sidebar-Head-Logo-Container-Open {
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    /* background-color: #3941ad84; */
+    cursor: pointer;
+}
+
+.Sidebar-Head-Logo-Container-Close {
+    border: 1px solid transparent;
+    width: 100%;
+    height: 50px;
+    border-radius: 1px;
+    /* background-color: #030518; */
+    cursor: pointer;
+}
+
+.Sidebar-Full-Head-Logo-Open {
+    height: 55px;
+    width: 200px;
+    margin: 2px 0 0 4px;
+}
+
+.Sidebar-Full-Head-Logo-Close {
+    display: none;
+}
+
+.Sidebar-Small-Head-Logo-Open {
+    display: none;
+}
+
+.Sidebar-Small-Head-Logo-Close {
+    /* border: 1px solid white; */
+    height: 30px;
+    width: 40px;
+    margin: 14px 0px 0 9px;
+}
+
+.Sidebar-Content-Container-Open {
+    border-top: 1px solid rgba(37, 69, 212, 0.489);
+    border-left: 1px solid rgba(37, 69, 212, 0.489);
+    
+    border-bottom: 1px solid rgba(37, 69, 212, 0.489);
+    height: 67vh;
+    width: 100%;
+    user-select: none;
+    /* overflow-y: scroll; */
+    overflow-x: hidden;
+    border-radius: 5px;
+    padding: 4px;
+    box-shadow: 0px 6px 4px 0px rgba(242,237,237,0.61);
+
+}
+
+.Sidebar-Content-Container-Close {
+    /* border: 1px solid red; */
+    height: 67vh;
+    width: 100%;
+    user-select: none;
+}
+
+.Sidebar-Icon-Text-Container {
+    /* border: 1px solid red; */
+    /* display: flex; */
+    border-radius: 5px;
+    /* height: 35px; */
+    /* width: 95%; */
+    color: #E4E7Ef;
+    margin: 10px 0 0 0;
+    font-family: 'Nunito';
+    /* box-shadow: hsl(239, 84%, 33%) 0px 0px 0px; */
+}
+
+/* .SidebarAll-Container{
+    border: 1px solid #0E109C;
+    background-color: #0E109C;
+    font-family: 'Nunito';
+    height: 80%;
+
+
+}
+.sidebar_subMenu{
+    border: 2px solid red;
+    color: #E4E7Ef;
+    background-color: #0E109C
+   
+} */
+
+/* .ant-menu-sub.ant-menu-inline{
+    border: 3px solid white;
+    background-color: #ececf0;
+   
+    border-radius: 1px 1px 20px 20px;
+}
+
+
+.ant-menu-sub.ant-menu-inline > .ant-menu-item, .ant-menu-sub.ant-menu-inline > .ant-menu-submenu > .ant-menu-submenu-title {
+height: 30px;
+}
+.Sidebar_Menu_Item{
+background-color: #5255f4;
+    color: #ffffff;
+    border-radius: 1px 1px 20px 20px;
+} */
+/* .Sidebar_Menu_Item:hover { */
+
+
+/* transform: scale(1) translateY(-3px); */
+/* animation: bouncing 0.5s .3s; */
+/* color: #ddd; */
+/* transition: all 0.3s linear; */
+/* transform: scale(0.95) translateY(2px); */
+/* box-shadow: hsl(239, 84%, 33%) 0px 0px 0px; */
+/* border: 5px solid transparent; */
+/* } */
+/* @keyframes bouncing {
+    from, to { transform: scale(1, 1); }
+    25% { transform: scale(0.9, 1.1); }
+    50% { transform: scale(1.1, 0.9); }
+    75% { transform: scale(0.95, 1.05); }
+  } */
+
+
+/* .active:hover {
+    border: 1px solid transparent;
+
+    color: rgba(12,80,163,255);
+   
+}  */
+
+
+.Sidebar_Menu_Item {
+    color: #ddd;
+    /* border-bottom: 1px solid #ddd; */
+
+}
+
+.Sidebar_Menu_Item:hover {
+    transition: all 0.3s linear;
+    transform: scale(0.95) translateY(2px);
+    border: 1px solid #0e109c;
+    /* color: #ffffff; */
+    font-family: 'Nunito';
+    border-radius: 20px 20px 20px 20px;
+}
+
+.SidebarAll-Container {
+    border: 1px solid  #0e109c;
+    background-color: #0e109c;
+    color: white;
+    font-family: 'Nunito';
+    height: auto;
+    /* width: 100%; */
+    overflow-x: hidden;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.304);
+   
+    
+}
+
+.SidebarAll-Container .ant-menu-inline-collapsed .ant-menu-item-selected,
+.SidebarAll-Container .ant-menu-submenu-inline .ant-menu-item-selected,
+.SidebarAll-Container .ant-menu-inline-collapsed .ant-menu-submenu-selected,
+.SidebarAll-Container .ant-menu-submenu-inline .ant-menu-submenu-selected {
+    background-color: #ddd;
+    /* color: #3235f5; */
+    height: 35px;
+    font-family: 'Nunito';
+    /* border: 5px solid green; */
+}
+
+.ant-menu-submenu-arrow {
+    color: #ddd;
+}
+
+.subModule_text {
+    color: black;
+}
+
+.ant-menu-item a{
+    color: #ffffff;
+}
+
+.subModule_name {
+    color: black!important;
+}
+
+.SidebarAll-Container .ant-menu-item:hover,
+.SidebarAll-Container .ant-menu-submenu:hover {
+    background-color: #ddd;
+    color: #5255f4;
+    transition: all 0.3s linear;
+    border-radius: 6px;
+    font-family: 'Nunito';
+
+}
+
+.sidebar_subMenu {
+    /* border: 2px solid green; */
+    font-weight: 500;
+    color: #e4e7ef;
+    background-color: #0e109c;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.304);
+
+   
+}
+
+.Sidebar-Content-Tag-Open {
+    display: flex;
+}
+
+.Sidebar-Content-Tag-Close {
+    display: block;
+}
+
+.Sidebar-Icon-Open {
+    border: 1px solid transparent;
+    margin: 4px 0 0 10px;
+}
+
+.Sidebar-Icon-Close {
+    border: 1px solid transparent;
+    margin: 6px 0 0 15px;
+}
+
+/* .Sidebar-Text {
+    border: 1px solid rgb(24, 23, 23);
+    margin: 6px 0 0 8px;
+    height: fit-content;
+    font-family: 'Nunito';
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+    width: 9rem;
+} */
+
+.Sidebar-Footer-Container-Open {
+    /* border: 1px solid red; */
+    /* height:100px; */
+    width: 100%;
+}
+
+.Sidebar-Footer-Container-Close {
+    border: 1px solid transparent;
+    height: calc(100% - 82vh);
+    width: 100%;
+}
+
+.Sidebar-Footer-Profile-Container-Open {
+    /* border: 1px solid red; */
+    height: 8vh;
+    width: fit-content;
+    display: flex;
+}
+
+.Sidebar-Footer-Profile-Container-Close {
+    border: 1px solid transparent;
+    height: 8vh;
+    width: fit-content;
+    margin: 30px 0 0 8px;
+}
+
+.Sidebar-Avatar-Open {
+    /* border: 1px solid #070707e9; */
+    position: absolute;
+    margin: 0px 0 0 80px;
+    background-color: #ddd;
+    cursor: pointer;
+    user-select: none;
+}
+
+.Sidebar-Avatar-Close {
+    cursor: pointer;
+    user-select: none;
+}
+
+.Sidebar-User-Info-Open {
+    /* border: 1px solid red; */
+    height: 80px;
+    width: 100%;
+    margin: 25px 0 0 8px;
+    background-image: linear-gradient(-225deg, #fffeffd1 0%, #D7FFFE 100%);
+    /* background:linear-gradient(90deg,rgb(138, 187, 209) 0%,rgba(12,80,163,255)100%); */
+    border-radius: 10px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.Sidebar-User-Info-Close {
+    display: none;
+}
+
+.Sidebar-User-Name {
+    text-align: center;
+    font-family: 'Nunito';
+    /* color: #fff; */
+    color: #0c50a3;
+    /* width: 100px; */
+    font-weight: 800;
+    font-size: 12px;
+    margin: 15px 0 0 1px;
+    /* border: 1px solid red; */
+}
+
+.Sidebar-user-Email {
+    /* border: 1px solid red; */
+    width: 150px;
+    text-align: center;
+    font-family: 'Poppins';
+    color: #0c50a3;
+    font-weight: 500;
+    font-size: 10px;
+    margin: 5px 15px 0 20px;
+    /* white-space: nowrap !important; */
+    /* overflow: hidden !important; */
+    /* text-overflow: ellipsis !important; */
+}
+
+.Sidebar-Decisionminds-Logo-Open {
+    height: 10px;
+    width: 100px;
+    margin: 18% auto 0 50px;
+    user-select: none;
+    /* border:1px solid red; */
+    /* background-color: #ddd; */
+
+}
+
+.Sidebar-Decisionminds-Logo-Close {
+    display: none;
+}
+
+.Profile-Parent-Container {
+    border: 1px solid transparent;
+    height: fit-content;
+    width: 170px;
+}
+
+.Profile-Inner-Container {
+    border: 1px solid transparent;
+    height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.Profile-Inner-Container:hover {
+    background-color: #f1f1f1;
+}
+
+.Profile-Inner-Container:active {
+    background-color: rgba(203, 203, 203, .5);
+}
+
+.Profile-Content {
+    border: 1px solid transparent;
+    display: flex;
+    margin: 0px auto 0 auto;
+}
+
+.Profile-Icon {
+    margin: 5px 0 0 20px;
+}
+
+.Profile-Text {
+    font-family: 'Nunito';
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    margin: 4.5px 0 0 10px;
+}

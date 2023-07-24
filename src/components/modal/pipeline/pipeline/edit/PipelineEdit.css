@@ -1,0 +1,15 @@
+.PipeLine_EditForm_Parent_Contaiiner{
+    height: auto;
+    width:100%;
+    font-family: 'Nunito';
+}
+.Pipeline_Update_Button{
+   
+    width: 80px;
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    bottom: 10px;
+    font-size: 15px;
+    font-family: 'Nunito';
+}

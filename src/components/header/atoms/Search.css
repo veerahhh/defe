@@ -1,0 +1,50 @@
+.Search-Parent-Container{
+    /* border: 1px solid red; */
+    width: 250px;
+    margin: 0 0 0 50px;
+    display: flex;
+}
+
+.Search-Parent-Container-None{
+    display:none;
+}
+
+.Search-Bar-Input{
+    border: 1px solid rgba(193,193,193,1);
+    border-radius: 30px;
+    width:100%;
+    height: 100%;
+    font-family: 'Nunito';
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    padding: 0 10px 0 35px;
+}
+
+.Search-Button-Container-Close{
+    border: 1px solid rgba(193,193,193,1);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    color: rgba(193,193,193,1);
+    cursor: pointer;
+    margin:1.5px 0 0 216.5px ;
+
+    transition: 0.5s;
+}
+.Search-Button-Container-Open{
+    border: 1px solid rgba(12,80,163,255);
+    width: 32px;
+    height: 33.4px;
+    border-radius: 50%;
+    position:absolute;
+    margin:1.5px 0 0 1.5px ;
+    background-color:rgba(12,80,163,255);
+    color: #fff;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.Search-Icon{
+    margin: 6.5px 0 0 6.5px;
+}
